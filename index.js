@@ -1,8 +1,9 @@
-function theBeatlesPlay(person,instruments){
-  var personPlays = [];
+function theBeatlesPlay(person,instrument){
+  var member = [];
+  
   for(var i = 0; i < person.length; i++){
-    personPlays[i] = person[i] + " plays " + instruments;
+    member[i] = (person[i] + " plays " + instrument[i]);
+  }
+  return member;
+}
 
-  };
-  return personPlays;
-};
