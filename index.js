@@ -13,5 +13,7 @@ function johnLennonFacts(fact){
     fact[i] = fact[i].concat(exc);
     i++
   }
-  return  johnLennonFacts;
+  return  fact;
 }
+ 
+ 
