@@ -8,8 +8,9 @@ function theBeatlesPlay(person,instrument){
 }
 function johnLennonFacts(fact){
   var exc = "!!!";
-  while(i = 0; i<fact.length){
+  while( i<fact.length){
     fact[i] = fact[i].concat(exc);
+    i++
   }
   return  johnLennonFacts;
 }
